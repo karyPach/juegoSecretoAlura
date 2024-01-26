@@ -16,10 +16,10 @@ function verificarIntento(){
         document.getElementById('reiniciar').removeAttribute('disabled'); //remover atributo
     } else{
         if( numeroUsuario > numeroSecreto){
-            asignarTextoElemento('p','El numero secreto es menor Mime ');
+            asignarTextoElemento('p','El numero secreto es menor ');
             numeroIntentos+=1;
         }else{
-            asignarTextoElemento('p','El numero secreto es mayor Mime');
+            asignarTextoElemento('p','El numero secreto es mayor ');
             numeroIntentos+=1;
 
         }
